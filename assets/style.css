@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+.form-signin {
+    max-width: 500px;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.success-register {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    padding: 25px;
+    gap: 50px;
+    top: 16%;
+}
+
+.success-register .title {
+    font-size: 34px;
+}
+
+.success-register .icon-success {
+    display: block;
+    height: 64px;
+    width: 64px;
+    background-image: url(/assets/image/success-green-check-mark-icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
