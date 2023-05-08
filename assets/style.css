@@ -24,6 +24,7 @@ body {
     padding: 25px;
     gap: 50px;
     top: 16%;
+    left: 0;
 }
 
 .success-register .title {
@@ -34,7 +35,4 @@ body {
     display: block;
     height: 64px;
     width: 64px;
-    background-image: url(/assets/image/success-green-check-mark-icon.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
 }

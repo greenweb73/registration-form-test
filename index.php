@@ -46,7 +46,7 @@
                     </div>
 
                     <div class="col-12">
-                        <input type="email" name="email" class="p-3 form-control" id="floatingInput" placeholder="Your email *" required>
+                        <input type="email" name="email" class="p-3 form-control" id="userEmail" placeholder="Your email *" required>
                         <div class="invalid-feedback" data-default-err-msg="Please enter a valid email address for registration.">
                             Please enter a valid email address for registration.
                         </div>
